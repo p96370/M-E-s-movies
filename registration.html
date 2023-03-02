@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h2 class="login">LOGIN</h2>
+        </header> 
+        <form class="register">
+            <table>    
+                <tr>
+                    <td>
+                        FIRST NAME:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Insert first name" name="username"> 
+                     </td>
+                </tr>
+                <tr>
+                    <td>
+                        LAST NAME:
+                    </td>
+                    <td>
+                       <input type="text" placeholder="Insert last name" name="username"> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        PASSWORD:
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Insert password" name="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        CONFIRM PASSWORD:
+                    </td>
+                    <td>
+                        <input type="password" placeholder="Confirm password" name="confirm_password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        EMAIL:
+                    </td>
+                    <td>
+                        <input type="mail" placeholder="Insert your email" name="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        GENDER:
+                    </td>
+                    <td>
+                        <input type="radio" name="Gender" value="m">Male
+                        <input type="radio" name="Gender" value="f">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        NATIVE LANGUAGE:
+                    </td>
+                    <td>
+                        <select name="language">
+                            <option selected hidden value="">Select Language</option>
+                            <option value="Chin">Chinese</option>
+                            <option value="Eng">English</option>
+                            <option value="Fr">French</option>
+                            <option value="Ger">German</option>
+                            <option value="It">Italien</option>
+                            <option value="Ro">Romanian</option>
+                            <option value="Ru">Russian</option>
+                            <option value="Sp">Spanish</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="SUBMIT" name="">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
